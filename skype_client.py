@@ -28,8 +28,8 @@ class AsyncSkype(skpy.SkypeEventLoop):
         super().__init__(*args, **kwargs)
         self.forward_q: Deque[Tuple[discord.Message, str, int, discord.Message]] = forward_q or deque()
         self.discord = None
-        self.skype_forbidden = []
-        self.get_forbidden_list()
+        # self.skype_forbidden = []
+        # self.get_forbidden_list()
         self.message_dict = {}
         self.refresh_token()
         self.loop_task = asyncio.ensure_future(self.main_loop())

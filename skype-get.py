@@ -18,7 +18,9 @@ def main():
 
     skype_chats_recent = []
     for keys, chat in sk.chats.recent().items():
-        if chat.__class__.__name__ == "SkypeSingleChat":
+        # if chat.__class__.__name__ == "SkypeSingleChat":
+        #     skype_chats_recent.append(f"SkypeSingleChat:\n\tName = {chat.user.name}\n\tChat_ID = {chat.id}\n\n")
+        if chat.__class__.__name__ == "SkypeSingleChat" and chat.user is not None:
             skype_chats_recent.append(f"SkypeSingleChat:\n\tName = {chat.user.name}\n\tChat_ID = {chat.id}\n\n")
         if chat.__class__.__name__ == "SkypeGroupChat":
             skype_chats_recent.append(f"SkypeGroupChat:\n\tName = {chat.topic}\n\tChat_ID = {chat.id}\n\n")

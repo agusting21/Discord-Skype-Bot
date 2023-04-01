@@ -1,0 +1,1302 @@
+PyNaCl is not installed, voice will NOT be supported
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: dad8d371bacb1cb17333809399945811).
+Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44>>
+PyNaCl is not installed, voice will NOT be supported
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 5798313d1c7dafebbffaca37f1efc008).
+Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44>>
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 245caeb91fc39e2274cb586ea574d044).
+Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44>>
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 9aceeedc984d18d4f1d19acaffadd834).
+Task was destroyed but it is pending!
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44>>
+Channel:
+{1090376542774886462: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1090376542774886462, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1438
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B31ff1d0d-4925-4263-b547-85813f23b2b9%7D/presenceDocs/messagingService HTTP/1.1" 200 272
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 416
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Forbidden Skype:
+['agustin.gomez319', 'echo123']
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001BA4AFC5510> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000001BA4AFC5510>: SSL handshake took 15.0 ms
+<asyncio.TransportSocket fd=856, family=2, type=1, proto=6, laddr=('192.168.0.31', 56820), raddr=('162.159.137.232', 443)> connected to 162.159.137.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001BA4C344890>, <aiohttp.client_proto.ResponseHandler object at 0x000001BA4C36A120>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 32.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001BA4C354310> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.203 seconds
+<asyncio.sslproto.SSLProtocol object at 0x000001BA4C354310>: SSL handshake took 219.0 ms
+<asyncio.TransportSocket fd=888, family=2, type=1, proto=6, laddr=('192.168.0.31', 56821), raddr=('162.159.136.234', 443)> connected to 162.159.136.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001BA4C3DB710>, <aiohttp.client_proto.ResponseHandler object at 0x000001BA4BE5C130>)
+Shard ID None has connected to Gateway (Session ID: 0eea5832932fcb5b45f7c466be2b6f01).
+Logged in 
+Username: Skype
+ID: 1090789911961018501
+API Version: 2.2.2
+Forbidden Discord:
+[1090789911961018501, '292666666', '2026666666', '3256666666', 'Zi Trello']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=856> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001BA4AFC5510> received EOF
+<_ProactorSocketTransport fd=888> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001BA4C354310> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: d3b2ba29a58b6ef4bebf42cbb3f1f5b2).
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+logging in using static token
+Shard ID None has connected to Gateway (Session ID: 4b01e1960b2752a2b33310b58e005a9d).
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Channel:
+{1090376542774886462: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1090376542774886462, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Forbidden Skype:
+['agustin.gomez319']
+logging in using static token
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 218.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443))]
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 219.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443))]
+Shard ID None has connected to Gateway (Session ID: 6d29f89ad09a9ad94b57037f8b580b02).
+Logged in 
+Username: Skype
+ID: 1090789911961018501
+API Version: 2.2.2
+Forbidden Discord:
+[1090789911961018501]
+Forbidden Start:
+('>>', '?')
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Channel:
+{1090376542774886462: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1090376542774886462, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Forbidden Skype:
+['agustin.gomez319']
+logging in using static token
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.188 seconds
+Shard ID None has connected to Gateway (Session ID: 3ef93b47d6af5792fbe39d116b6dc439).
+Logged in 
+Username: Skype
+ID: 1090789911961018501
+API Version: 2.2.2
+Forbidden Discord:
+[1090789911961018501]
+Forbidden Start:
+('>>', '?')
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Channel:
+{1090376542774886462: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1090376542774886462, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Forbidden Skype:
+['agustin.gomez319']
+logging in using static token
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.203 seconds
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.187 seconds
+Shard ID None has connected to Gateway (Session ID: 7eca8b687d1032655474602db0bb0539).
+Logged in 
+Username: Skype
+ID: 1090789911961018501
+API Version: 2.2.2
+Forbidden Discord:
+[1090789911961018501]
+Forbidden Start:
+('>>', '?')
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Channel:
+{1090376542774886462: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1090376542774886462, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1439
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B28cd8b33-6286-4c5b-b92c-31bd14039bd2%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 415
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Forbidden Skype:
+['agustin.gomez319']
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 15.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x00000269FA44A410> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x00000269FA44A410>: SSL handshake took 31.0 ms
+<asyncio.TransportSocket fd=868, family=2, type=1, proto=6, laddr=('192.168.0.31', 50262), raddr=('162.159.137.232', 443)> connected to 162.159.137.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x00000269FA424890>, <aiohttp.client_proto.ResponseHandler object at 0x00000269FA44E120>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 15.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x00000269F9F29750> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.188 seconds
+<asyncio.sslproto.SSLProtocol object at 0x00000269F9F29750>: SSL handshake took 203.0 ms
+<asyncio.TransportSocket fd=892, family=2, type=1, proto=6, laddr=('192.168.0.31', 50263), raddr=('162.159.134.234', 443)> connected to 162.159.134.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x00000269FA4BB710>, <aiohttp.client_proto.ResponseHandler object at 0x00000269F9F3C130>)
+Shard ID None has connected to Gateway (Session ID: f37d9891486bcf8bf1a5cb1f7d10f389).
+Logged in 
+Username: Skype
+ID: 1090789911961018501
+API Version: 2.2.2
+Forbidden Discord:
+[1090789911961018501]
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=868> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x00000269FA44A410> received EOF
+<_ProactorSocketTransport fd=892> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x00000269F9F29750> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1437
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B99a5b030-456c-45b2-89a0-63a7efe590c9%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 415
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Forbidden Skype:
+['agustin.gomez319']
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 15.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001A8775E3850> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.187 seconds
+<asyncio.sslproto.SSLProtocol object at 0x000001A8775E3850>: SSL handshake took 218.0 ms
+<asyncio.TransportSocket fd=860, family=2, type=1, proto=6, laddr=('192.168.0.31', 50306), raddr=('162.159.128.233', 443)> connected to 162.159.128.233:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001A877A34890>, <aiohttp.client_proto.ResponseHandler object at 0x000001A877A42120>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 16.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001A877539490> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.187 seconds
+<asyncio.sslproto.SSLProtocol object at 0x000001A877539490>: SSL handshake took 219.0 ms
+<asyncio.TransportSocket fd=848, family=2, type=1, proto=6, laddr=('192.168.0.31', 50308), raddr=('162.159.133.234', 443)> connected to 162.159.133.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001A877ACB710>, <aiohttp.client_proto.ResponseHandler object at 0x000001A87754C130>)
+Shard ID None has connected to Gateway (Session ID: 3a16e3714636023df1cb574dced11475).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486]
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=860> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001A8775E3850> received EOF
+<_ProactorSocketTransport fd=848> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001A877539490> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1440
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7Bf60d1662-1edd-4a64-a609-41a74d25d73f%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 417
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Forbidden Skype:
+['agustin.gomez319']
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 203.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001E73D50A790> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000001E73D50A790>: SSL handshake took 16.0 ms
+<asyncio.TransportSocket fd=872, family=2, type=1, proto=6, laddr=('192.168.0.31', 50386), raddr=('162.159.128.233', 443)> connected to 162.159.128.233:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001E73D4E4890>, <aiohttp.client_proto.ResponseHandler object at 0x000001E73D4FA120>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 219.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001E73C0195D0> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.187 seconds
+<asyncio.sslproto.SSLProtocol object at 0x000001E73C0195D0>: SSL handshake took 219.0 ms
+<asyncio.TransportSocket fd=860, family=2, type=1, proto=6, laddr=('192.168.0.31', 50388), raddr=('162.159.135.234', 443)> connected to 162.159.135.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001E73D57B710>, <aiohttp.client_proto.ResponseHandler object at 0x000001E73C02C130>)
+Shard ID None has connected to Gateway (Session ID: 6f811c74faff44ed6938603d5ea618c9).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486]
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=872> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001E73D50A790> received EOF
+<_ProactorSocketTransport fd=860> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001E73C0195D0> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1440
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B94003756-fcc4-42af-9ebc-9956a0683635%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 417
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Forbidden Skype:
+['agustin.gomez319']
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 16.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001E26BFBC850> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.188 seconds
+<asyncio.sslproto.SSLProtocol object at 0x000001E26BFBC850>: SSL handshake took 203.0 ms
+<asyncio.TransportSocket fd=864, family=2, type=1, proto=6, laddr=('192.168.0.31', 55918), raddr=('162.159.138.232', 443)> connected to 162.159.138.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001E26C434890>, <aiohttp.client_proto.ResponseHandler object at 0x000001E26C44E120>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 16.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001E26A9B6310> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.203 seconds
+<asyncio.sslproto.SSLProtocol object at 0x000001E26A9B6310>: SSL handshake took 234.0 ms
+<asyncio.TransportSocket fd=852, family=2, type=1, proto=6, laddr=('192.168.0.31', 55920), raddr=('162.159.136.234', 443)> connected to 162.159.136.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001E26C4CB6B0>, <aiohttp.client_proto.ResponseHandler object at 0x000001E26BF4C130>)
+Shard ID None has connected to Gateway (Session ID: daf5a10b329628d008a858f6b8112461).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486]
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=864> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001E26BFBC850> received EOF
+<_ProactorSocketTransport fd=852> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001E26A9B6310> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1430
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7Bbd69a31a-b504-4b05-acfa-23204c6a0bc6%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 416
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Forbidden Skype:
+['agustin.gomez319', 'echo123']
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 16.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001CB61E5A4D0> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.187 seconds
+<asyncio.sslproto.SSLProtocol object at 0x000001CB61E5A4D0>: SSL handshake took 219.0 ms
+<asyncio.TransportSocket fd=864, family=2, type=1, proto=6, laddr=('192.168.0.31', 55964), raddr=('162.159.137.232', 443)> connected to 162.159.137.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001CB61E34890>, <aiohttp.client_proto.ResponseHandler object at 0x000001CB61E6A120>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001CB61E589D0> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000001CB61E589D0>: SSL handshake took 16.0 ms
+<asyncio.TransportSocket fd=884, family=2, type=1, proto=6, laddr=('192.168.0.31', 55966), raddr=('162.159.136.234', 443)> connected to 162.159.136.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001CB61ECB110>, <aiohttp.client_proto.ResponseHandler object at 0x000001CB61E6BE00>)
+Shard ID None has connected to Gateway (Session ID: 9e3ab3f5dc0ccf7e96fdd2318f89f0be).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=864> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001CB61E5A4D0> received EOF
+<_ProactorSocketTransport fd=884> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001CB61E589D0> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1427
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B42917d3a-5807-4be7-a7d5-3c3001eb1ea8%7D/presenceDocs/messagingService HTTP/1.1" 200 270
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 415
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 16.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000015B0489DFD0> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x0000015B0489DFD0>: SSL handshake took 16.0 ms
+<asyncio.TransportSocket fd=860, family=2, type=1, proto=6, laddr=('192.168.0.31', 55989), raddr=('162.159.138.232', 443)> connected to 162.159.138.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x0000015B05CFBA10>, <aiohttp.client_proto.ResponseHandler object at 0x0000015B05D09B00>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 16.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000015B05D78A10> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x0000015B05D78A10>: SSL handshake took 31.0 ms
+<asyncio.TransportSocket fd=884, family=2, type=1, proto=6, laddr=('192.168.0.31', 55990), raddr=('162.159.134.234', 443)> connected to 162.159.134.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x0000015B05D7E810>, <aiohttp.client_proto.ResponseHandler object at 0x0000015B05D76D60>)
+Shard ID None has connected to Gateway (Session ID: d6fe0239237edd3e9ead346a53241b24).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=860> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000015B0489DFD0> received EOF
+<_ProactorSocketTransport fd=884> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000015B05D78A10> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1440
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B3b791533-b31d-4771-a9ca-807420b10779%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 416
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001B3B8CF8B10> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000001B3B8CF8B10>: SSL handshake took 15.0 ms
+<asyncio.TransportSocket fd=856, family=2, type=1, proto=6, laddr=('192.168.0.31', 56009), raddr=('162.159.138.232', 443)> connected to 162.159.138.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001B3B914FA10>, <aiohttp.client_proto.ResponseHandler object at 0x000001B3B91719B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001B3B91D8D90> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000001B3B91D8D90>: SSL handshake took 31.0 ms
+<asyncio.TransportSocket fd=876, family=2, type=1, proto=6, laddr=('192.168.0.31', 56010), raddr=('162.159.134.234', 443)> connected to 162.159.134.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001B3B91DE810>, <aiohttp.client_proto.ResponseHandler object at 0x000001B3B91D6C80>)
+Shard ID None has connected to Gateway (Session ID: 6b28db7977a497e993213cb915298524).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=856> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001B3B8CF8B10> received EOF
+<_ProactorSocketTransport fd=876> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001B3B91D8D90> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1426
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B7fb3d7ea-f1ea-4b71-a84a-d6022b1e4eed%7D/presenceDocs/messagingService HTTP/1.1" 200 270
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 412
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000002AA2E5B4BD0> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000002AA2E5B4BD0>: SSL handshake took 15.0 ms
+<asyncio.TransportSocket fd=856, family=2, type=1, proto=6, laddr=('192.168.0.31', 56034), raddr=('162.159.138.232', 443)> connected to 162.159.138.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002AA2EA23A10>, <aiohttp.client_proto.ResponseHandler object at 0x000002AA2EA2D9B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 32.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000002AA2EAA8D50> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000002AA2EAA8D50>: SSL handshake took 32.0 ms
+<asyncio.TransportSocket fd=880, family=2, type=1, proto=6, laddr=('192.168.0.31', 56035), raddr=('162.159.134.234', 443)> connected to 162.159.134.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002AA2EAAE810>, <aiohttp.client_proto.ResponseHandler object at 0x000002AA2EAA6C80>)
+Shard ID None has connected to Gateway (Session ID: 1b61f7670d8041e4a0e588aed91150b8).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=856> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000002AA2E5B4BD0> received EOF
+<_ProactorSocketTransport fd=880> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000002AA2EAA8D50> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1439
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7Ba496eba3-0830-4c09-8e36-f0b7efdaa351%7D/presenceDocs/messagingService HTTP/1.1" 200 270
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 415
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 31.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000016394D57210> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x0000016394D57210>: SSL handshake took 31.0 ms
+<asyncio.TransportSocket fd=900, family=2, type=1, proto=6, laddr=('192.168.0.31', 56056), raddr=('162.159.138.232', 443)> connected to 162.159.138.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001639523FA10>, <aiohttp.client_proto.ResponseHandler object at 0x000001639521D9B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000016395298C50> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x0000016395298C50>: SSL handshake took 31.0 ms
+<asyncio.TransportSocket fd=748, family=2, type=1, proto=6, laddr=('192.168.0.31', 56057), raddr=('162.159.134.234', 443)> connected to 162.159.134.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001639529E810>, <aiohttp.client_proto.ResponseHandler object at 0x0000016395296C80>)
+Shard ID None has connected to Gateway (Session ID: 2188b2e047a46cca22427a3bef07492c).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=900> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000016394D57210> received EOF
+<_ProactorSocketTransport fd=748> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000016395298C50> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1427
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7Bea2c1429-c3f2-49f6-a786-8f3c7982970c%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 416
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 15.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001A5AF13C7D0> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000001A5AF13C7D0>: SSL handshake took 15.0 ms
+<asyncio.TransportSocket fd=876, family=2, type=1, proto=6, laddr=('192.168.0.31', 56087), raddr=('162.159.136.232', 443)> connected to 162.159.136.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001A5AF5DBAD0>, <aiohttp.client_proto.ResponseHandler object at 0x000001A5AF5C1B00>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 16.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000001A5AF634A90> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000001A5AF634A90>: SSL handshake took 16.0 ms
+<asyncio.TransportSocket fd=864, family=2, type=1, proto=6, laddr=('192.168.0.31', 56088), raddr=('162.159.130.234', 443)> connected to 162.159.130.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000001A5AF63A8D0>, <aiohttp.client_proto.ResponseHandler object at 0x000001A5AF632DD0>)
+Shard ID None has connected to Gateway (Session ID: 048b0de3eae93bfb4c5ffe7a33c45cc6).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=876> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001A5AF13C7D0> received EOF
+<_ProactorSocketTransport fd=864> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000001A5AF634A90> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1441
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B584d65a1-354c-4aea-8bfd-f9d8cbf4668f%7D/presenceDocs/messagingService HTTP/1.1" 200 270
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 416
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000002151E93B350> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.187 seconds
+<asyncio.sslproto.SSLProtocol object at 0x000002151E93B350>: SSL handshake took 218.0 ms
+<asyncio.TransportSocket fd=876, family=2, type=1, proto=6, laddr=('192.168.0.31', 56122), raddr=('162.159.136.232', 443)> connected to 162.159.136.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002151EDB7A10>, <aiohttp.client_proto.ResponseHandler object at 0x000002151EDC19B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 31.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000002151EE38DD0> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000002151EE38DD0>: SSL handshake took 328.0 ms
+<asyncio.TransportSocket fd=884, family=2, type=1, proto=6, laddr=('192.168.0.31', 56124), raddr=('162.159.135.234', 443)> connected to 162.159.135.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002151EE3E810>, <aiohttp.client_proto.ResponseHandler object at 0x000002151EE36C80>)
+Shard ID None has connected to Gateway (Session ID: 0b977d28b26b0c4103ff06fcd4d43b7d).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=876> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000002151E93B350> received EOF
+<_ProactorSocketTransport fd=884> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000002151EE38DD0> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1439
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B33ffdfe2-5b41-4c33-b746-4ec8ce490814%7D/presenceDocs/messagingService HTTP/1.1" 200 272
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 415
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 15.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000015451A77AD0> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x0000015451A77AD0>: SSL handshake took 15.0 ms
+<asyncio.TransportSocket fd=868, family=2, type=1, proto=6, laddr=('192.168.0.31', 56168), raddr=('162.159.128.233', 443)> connected to 162.159.128.233:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x0000015455B7FA10>, <aiohttp.client_proto.ResponseHandler object at 0x0000015455BA19B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 31.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000015455C08990> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.203 seconds
+<asyncio.sslproto.SSLProtocol object at 0x0000015455C08990>: SSL handshake took 234.0 ms
+<asyncio.TransportSocket fd=760, family=2, type=1, proto=6, laddr=('192.168.0.31', 56169), raddr=('162.159.130.234', 443)> connected to 162.159.130.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x0000015455C0E810>, <aiohttp.client_proto.ResponseHandler object at 0x0000015455C06C80>)
+Shard ID None has connected to Gateway (Session ID: fd230110789444aed965b53e76163121).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=868> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000015451A77AD0> received EOF
+<_ProactorSocketTransport fd=760> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000015455C08990> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1428
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B677612f9-9dd8-4905-8506-f4d64c595bcc%7D/presenceDocs/messagingService HTTP/1.1" 200 272
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 418
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000025E30CFB7D0> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.187 seconds
+<asyncio.sslproto.SSLProtocol object at 0x0000025E30CFB7D0>: SSL handshake took 219.0 ms
+<asyncio.TransportSocket fd=892, family=2, type=1, proto=6, laddr=('192.168.0.31', 56211), raddr=('162.159.128.233', 443)> connected to 162.159.128.233:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x0000025E3116FA10>, <aiohttp.client_proto.ResponseHandler object at 0x0000025E311699B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 16.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000025E311F8B90> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x0000025E311F8B90>: SSL handshake took 16.0 ms
+<asyncio.TransportSocket fd=928, family=2, type=1, proto=6, laddr=('192.168.0.31', 56213), raddr=('162.159.135.234', 443)> connected to 162.159.135.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x0000025E311FE810>, <aiohttp.client_proto.ResponseHandler object at 0x0000025E311F6C80>)
+Shard ID None has connected to Gateway (Session ID: 9317b40701277d321fd136e7789e2f80).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=892> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000025E30CFB7D0> received EOF
+<_ProactorSocketTransport fd=928> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000025E311F8B90> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1435
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7Bc7fce1e3-eb57-480e-a449-0961bb7f71fe%7D/presenceDocs/messagingService HTTP/1.1" 200 269
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 416
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 203.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x00000238583CE610> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.188 seconds
+<asyncio.sslproto.SSLProtocol object at 0x00000238583CE610>: SSL handshake took 219.0 ms
+<asyncio.TransportSocket fd=856, family=2, type=1, proto=6, laddr=('192.168.0.31', 56265), raddr=('162.159.135.232', 443)> connected to 162.159.135.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x00000238583C7A10>, <aiohttp.client_proto.ResponseHandler object at 0x00000238583DD9B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 218.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000023858448B10> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x0000023858448B10>: SSL handshake took 31.0 ms
+<asyncio.TransportSocket fd=888, family=2, type=1, proto=6, laddr=('192.168.0.31', 56268), raddr=('162.159.130.234', 443)> connected to 162.159.130.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002385844E810>, <aiohttp.client_proto.ResponseHandler object at 0x0000023858446C80>)
+Shard ID None has connected to Gateway (Session ID: 77a22aae21809e0c87a824d34ec8e714).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=856> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x00000238583CE610> received EOF
+<_ProactorSocketTransport fd=888> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000023858448B10> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1436
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B01e2f0bf-1817-4851-bcc1-112c6256432b%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 416
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 16.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000002613F518BD0> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000002613F518BD0>: SSL handshake took 31.0 ms
+<asyncio.TransportSocket fd=848, family=2, type=1, proto=6, laddr=('192.168.0.31', 56297), raddr=('162.159.135.232', 443)> connected to 162.159.135.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002614088BAD0>, <aiohttp.client_proto.ResponseHandler object at 0x000002614089DB00>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 15.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000026140904910> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.188 seconds
+<asyncio.sslproto.SSLProtocol object at 0x0000026140904910>: SSL handshake took 219.0 ms
+<asyncio.TransportSocket fd=872, family=2, type=1, proto=6, laddr=('192.168.0.31', 56298), raddr=('162.159.134.234', 443)> connected to 162.159.134.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002614090A8D0>, <aiohttp.client_proto.ResponseHandler object at 0x0000026140902DD0>)
+Shard ID None has connected to Gateway (Session ID: 30bf21ec16a4ffdb5380e5ec70788704).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=848> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000002613F518BD0> received EOF
+<_ProactorSocketTransport fd=872 write=<_OverlappedFuture finished result=24 created at C:\Python311\Lib\asyncio\windows_events.py:571>> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000026140904910> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1428
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B5792d296-effe-424a-8e95-1763819e49bf%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 447
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000002461AB3B110> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000002461AB3B110>: SSL handshake took 31.0 ms
+<asyncio.TransportSocket fd=860, family=2, type=1, proto=6, laddr=('192.168.0.31', 56314), raddr=('162.159.135.232', 443)> connected to 162.159.135.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002461AFBFB30>, <aiohttp.client_proto.ResponseHandler object at 0x000002461AFCDB00>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000002461B034990> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000002461B034990>: SSL handshake took 15.0 ms
+<asyncio.TransportSocket fd=888, family=2, type=1, proto=6, laddr=('192.168.0.31', 56315), raddr=('162.159.134.234', 443)> connected to 162.159.134.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002461B03A930>, <aiohttp.client_proto.ResponseHandler object at 0x000002461B032DD0>)
+Shard ID None has connected to Gateway (Session ID: cd49a351e00c47ba8356de36d671248d).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486, '292666666']
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=860> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000002461AB3B110> received EOF
+<_ProactorSocketTransport fd=888> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000002461B034990> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1426
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7Bbe4b6259-70ab-4cc7-9506-eaf458e53d18%7D/presenceDocs/messagingService HTTP/1.1" 200 271
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 416
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 31.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000002C9A9414510> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.203 seconds
+<asyncio.sslproto.SSLProtocol object at 0x000002C9A9414510>: SSL handshake took 219.0 ms
+<asyncio.TransportSocket fd=872, family=2, type=1, proto=6, laddr=('192.168.0.31', 56361), raddr=('162.159.137.232', 443)> connected to 162.159.137.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002C9A98AF9B0>, <aiohttp.client_proto.ResponseHandler object at 0x000002C9A98959B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 32.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x000002C9A9908AD0> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x000002C9A9908AD0>: SSL handshake took 16.0 ms
+<asyncio.TransportSocket fd=888, family=2, type=1, proto=6, laddr=('192.168.0.31', 56363), raddr=('162.159.134.234', 443)> connected to 162.159.134.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x000002C9A990E7B0>, <aiohttp.client_proto.ResponseHandler object at 0x000002C9A9906C80>)
+Shard ID None has connected to Gateway (Session ID: 0c68adda8091dffd09bb861958d541e6).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\discord_client.py", line 76, in on_ready
+    self.get_forbidden_list()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\discord_client.py", line 194, in get_forbidden_list
+    for x in config["FORBIDDEN_DISCORD"].values():
+             ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'FORBIDDEN_DISCORD'
+<_ProactorSocketTransport fd=872> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000002C9A9414510> received EOF
+<_ProactorSocketTransport fd=888 write=<_OverlappedFuture finished result=24 created at C:\Python311\Lib\asyncio\windows_events.py:571>> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x000002C9A9908AD0> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1436
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B9d0648be-8e5e-4845-94fe-c61c542b82a3%7D/presenceDocs/messagingService HTTP/1.1" 200 270
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 447
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x00000207C88E7210> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x00000207C88E7210>: SSL handshake took 16.0 ms
+<asyncio.TransportSocket fd=872, family=2, type=1, proto=6, laddr=('192.168.0.31', 56383), raddr=('162.159.137.232', 443)> connected to 162.159.137.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x00000207C8DD3A70>, <aiohttp.client_proto.ResponseHandler object at 0x00000207C8DB59B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 32.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x00000207C8E28A50> starts SSL handshake
+Executing <Handle SSLProtocol.connection_made(<_ProactorSoc...vents.py:571>>) created at C:\Python311\Lib\asyncio\proactor_events.py:66> took 0.187 seconds
+<asyncio.sslproto.SSLProtocol object at 0x00000207C8E28A50>: SSL handshake took 219.0 ms
+<asyncio.TransportSocket fd=832, family=2, type=1, proto=6, laddr=('192.168.0.31', 56384), raddr=('162.159.136.234', 443)> connected to 162.159.136.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x00000207C8E2E870>, <aiohttp.client_proto.ResponseHandler object at 0x00000207C8E26C80>)
+Shard ID None has connected to Gateway (Session ID: c75c6d55d8318fb99786bc8025a07cd1).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486]
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=872> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x00000207C88E7210> received EOF
+<_ProactorSocketTransport fd=832> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x00000207C8E28A50> received EOF
+Close <ProactorEventLoop running=False closed=False debug=True>
+Task was destroyed but it is pending!
+source_traceback: Object created at (most recent call last):
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 32, in <module>
+    main()
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\bot.py", line 18, in main
+    skype = AsyncSkype(config.MAIN.skype_email, config.MAIN.skype_password)
+  File "C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py", line 35, in __init__
+    self.loop_task = asyncio.ensure_future(self.main_loop())
+  File "C:\Python311\Lib\asyncio\tasks.py", line 649, in ensure_future
+    return _ensure_future(coro_or_future, loop=loop)
+  File "C:\Python311\Lib\asyncio\tasks.py", line 670, in _ensure_future
+    return loop.create_task(coro_or_future)
+task: <Task pending name='Task-1' coro=<AsyncSkype.main_loop() running at C:\Users\agu\Documents\GitHub\Discord-Skype-Bot\skype_client.py:44> created at C:\Python311\Lib\asyncio\tasks.py:670>
+Close <ProactorEventLoop running=False closed=False debug=True>
+Channel:
+{1032748483855257660: '8:live:.cid.dab1ed281a0a54d0', '8:live:.cid.dab1ed281a0a54d0': 1032748483855257660, 1090358979500179530: '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype', '19:0104e6586d6b4e04ad1f28a914289eba@thread.skype': 1090358979500179530}
+Admin:
+['509549053768368158']
+Starting new HTTPS connection (1): login.live.com:443
+https://login.live.com:443 "POST /RST.srf HTTP/1.1" 200 1435
+Starting new HTTPS connection (1): edge.skype.com:443
+https://edge.skype.com:443 "POST /rps/v1/rps/skypetoken HTTP/1.1" 200 None
+Starting new HTTPS connection (1): api.skype.com:443
+https://api.skype.com:443 "GET /users/self/profile HTTP/1.1" 200 363
+Starting new HTTPS connection (1): client-s.gateway.messenger.live.com:443
+https://client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 404 106
+Starting new HTTPS connection (1): azwcus1-client-s.gateway.messenger.live.com:443
+https://azwcus1-client-s.gateway.messenger.live.com:443 "POST /v1/users/ME/endpoints HTTP/1.1" 201 2
+https://azwcus1-client-s.gateway.messenger.live.com:443 "PUT /v1/users/ME/endpoints/%7B2300ecb5-85fe-41bf-bebd-e3ce32283429%7D/presenceDocs/messagingService HTTP/1.1" 200 270
+https://azwcus1-client-s.gateway.messenger.live.com:443 "GET /v1/users/ME/presenceDocs/messagingService?view=expanded HTTP/1.1" 200 415
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+logging in using static token
+Get address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info discord.com:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 31.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.137.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.128.233', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.232', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.138.232', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000027F873F7AD0> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x0000027F873F7AD0>: SSL handshake took 15.0 ms
+<asyncio.TransportSocket fd=852, family=2, type=1, proto=6, laddr=('192.168.0.31', 56455), raddr=('162.159.137.232', 443)> connected to 162.159.137.232:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x0000027F8B533A10>, <aiohttp.client_proto.ResponseHandler object at 0x0000027F8B5599B0>)
+Get address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024>
+Getting address info gateway.discord.gg:443, type=<SocketKind.SOCK_STREAM: 1>, flags=<AddressInfo.AI_ADDRCONFIG: 1024> took 0.000ms: [(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.136.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.134.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.133.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.130.234', 443)), (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 0, '', ('162.159.135.234', 443))]
+<asyncio.sslproto.SSLProtocol object at 0x0000027F8B5B8850> starts SSL handshake
+<asyncio.sslproto.SSLProtocol object at 0x0000027F8B5B8850>: SSL handshake took 16.0 ms
+<asyncio.TransportSocket fd=860, family=2, type=1, proto=6, laddr=('192.168.0.31', 56456), raddr=('162.159.136.234', 443)> connected to 162.159.136.234:443: (<asyncio.sslproto._SSLProtocolTransport object at 0x0000027F8B5BE810>, <aiohttp.client_proto.ResponseHandler object at 0x0000027F8B5B6C80>)
+Shard ID None has connected to Gateway (Session ID: 17ded964ddef56c8cb15823935b174ab).
+Logged in 
+Username: skype2
+ID: 1091774541283475486
+API Version: 2.2.2
+Forbidden Discord:
+[1091774541283475486]
+Forbidden Start:
+('>>', '?')
+<_ProactorSocketTransport fd=852> received EOF
+<asyncio.sslproto.SSLProtocol object at 0x0000027F873F7AD0> received EOF

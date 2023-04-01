@@ -1,0 +1,24 @@
+SkypeGroupChat:
+	Name = dasfdas
+	Chat_ID = 19:0104e6586d6b4e04ad1f28a914289eba@thread.skype
+
+SkypeSingleChat:
+	Name = Milagros Seffino
+	Chat_ID = 8:live:.cid.dab1ed281a0a54d0
+
+SkypeSingleChat:
+	Name = Skype
+	Chat_ID = 28:concierge
+
+SkypeSingleChat:
+	Name = 
+	Chat_ID = 8:valecba73
+
+SkypeGroupChat:
+	Name = aprile.luciano, diego.wechselberg19, joaquin.gabriel95, ...
+	Chat_ID = 19:a6858c0deb0144dfbf366de92065549e@thread.skype
+
+SkypeSingleChat:
+	Name = Echo / Sound Test Service
+	Chat_ID = 8:echo123
+

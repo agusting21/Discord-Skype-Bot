@@ -24,7 +24,7 @@ class ApplicationDiscord(discord.Client):
     def __init__(self,  **kwargs):
         intents = discord.Intents.default()
         super().__init__(intents=intents, **kwargs)
-        # self.discord_forbidden = []
+        self.discord_forbidden = []
         self.all_members = {}
         self.all_members_nick = {}
         self.message_dict = {}
@@ -84,8 +84,6 @@ class ApplicationDiscord(discord.Client):
     # TODO Add embed support
     async def on_message(self, message):
         content = message.content
-        if message.author == self.user:
-            return
         if content.startswith(f"{config.MAIN.command_prefix}temp_bridge"):
             await self.create_temp_bridge(message)
         if content.startswith(self.start_tuple):
@@ -98,8 +96,6 @@ class ApplicationDiscord(discord.Client):
 
     async def on_message_edit(self, old_message, message):
         content = message.content
-        if message.author == self.user:
-            return
         if content.startswith(self.start_tuple):
             return
         if message.author.id in self.discord_forbidden or message.author.name in self.discord_forbidden:
